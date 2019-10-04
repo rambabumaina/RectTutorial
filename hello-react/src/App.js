@@ -18,11 +18,23 @@ import ParentComponent from './components/ParentComponent'
 
 import ConditionalRendring from './components/ConditionalRendring'
 
+import ListRendering from './components/ListRendering';
+
+import Form from './components/Form';
+
+import Stylesheet from './components/Stylesheet';
+
 function App() {
   return (
     <div className="App">
+      
+      <Stylesheet primary ={true}/>
 
-      <ConditionalRendring />
+      {/* <Form /> */}
+
+      {/* <ListRendering /> */}
+
+      {/* <ConditionalRendring /> */}
 
       {/* <ParentComponent /> */}
 
