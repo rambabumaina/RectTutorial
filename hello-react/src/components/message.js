@@ -18,7 +18,6 @@ class Message extends Component {
             }
         )
     }
-
     render() {
         return(
         <div>   
@@ -27,6 +26,7 @@ class Message extends Component {
         </div>
         )
     }
+
 }
 
 export default Message;

@@ -23,12 +23,22 @@ import ListRendering from './components/ListRendering';
 import Form from './components/Form';
 
 import Stylesheet from './components/Stylesheet';
+import LifecycleA from './components/LifecycleA';
+import UserDetails from './UserComponent/UserDetails';
+import PostUser from './UserComponent/PostUser';
 
 function App() {
   return (
     <div className="App">
+
+ 
+      <PostUser/>
+
+      {/* <UserDetails /> */}
+
       
-      <Stylesheet primary ={true}/>
+      {/* <LifecycleA /> */}
+      {/* <Stylesheet primary ={true}/> */}
 
       {/* <Form /> */}
 
